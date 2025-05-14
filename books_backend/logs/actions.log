@@ -1,0 +1,16 @@
+[2025-05-14T06:55:06.298Z] [guest] Unknown - Added new book (test4)
+[2025-05-14T07:01:22.238Z] [guest] Unknown - Added new book (test 5)
+[2025-05-14T08:32:21.124Z] [guest] Unknown - undefined
+[2025-05-14T08:35:09.791Z] [guest] Unknown - undefined
+[admin] admin - Added new book (test 8.2)[admin] admin - Book (test32) is updated[2025-05-14T08:51:43.563Z]  ([admin] admin - Added new book (test9))
+[2025-05-14T08:52:08.374Z]  ([admin] admin - Book (test321) is updated)
+[2025-05-14T08:53:38.461Z]  ([admin] admin - Book (test 8.2) deleted)
+[2025-05-14T09:00:50.321Z]  ([admin] admin - Added new comment to book (1984))
+[2025-05-14T09:01:36.983Z]  ([admin] admin - Book (test4) deleted)
+[2025-05-14T09:01:43.678Z]  ([admin] admin - Book (test 5) deleted)
+[2025-05-14T09:01:48.487Z]  ([admin] admin - Book (test9) deleted)
+[2025-05-14T09:01:53.822Z]  ([admin] admin - Book (test8) deleted)
+[2025-05-14T09:01:58.696Z]  ([admin] admin - Book (test8.1) deleted)
+[2025-05-14T09:02:04.116Z]  ([admin] admin - Book (test7) deleted)
+[2025-05-14T09:02:10.080Z]  ([admin] admin - Book (test6) deleted)
+[2025-05-14T09:02:39.565Z]  ([user] Cathie12 - Added new comment to book (witcher))
