@@ -1,9 +1,64 @@
-# Project3_Books
+# Project5_Books
 
-**Project3_Books** on RESTful API raamatute haldamiseks, kasutades JWT-autentimist.
+## **Frontend**
 
-## Kirjeldus
-See projekt on raamatukogu serveripoolne rakendus, mis võimaldab teostada CRUD-operatsioone (loomine, lugemine, muutmine, kustutamine) raamatute kallal ning sisaldab ka autentimis- ja autoriseerimissüsteemi JWT kaudu.
+React-põhine kasutajaliides rakendusele "Books". 
+
+Võimalused:
+
+- Vaadata raamatute nimekirja kategooriate kaupa
+- Otsida raamatuid pealkirja, autori või kategooria järgi
+- Vaadata raamatu detaile (kaas, kirjeldus, autorid, aasta)
+- Registreeruda ja sisse logida
+- Lisada kommentaare (ainult registreeritud kasutajad)
+- Administreerida raamatuid (lisamine, muutmine, kustutamine) — ainult `admin` rolliga kasutajatele
+
+## Tehnoloogiad
+
+- **React** — kasutajaliidese loomiseks
+- **React Router** — lehtede vahel liikumiseks
+- **Material UI** — visuaalsed komponendid
+- **Axios** — API-päringute tegemiseks
+- **JWT** — autentimiseks ja autoriseerimiseks
+- **LocalStorage** — kasutajaandmete ja tokeni salvestamiseks
+- **Vite** — projekti arendamiseks ja käivitamiseks
+
+## Paigaldus
+
+```bash
+cd frontend
+npm install
+```
+## Käivitamine
+``` npm run dev ```
+
+Vaikimisi töötab rakendus aadressil:
+
+```http://localhost:5173```
+
+## Ühendus backendiga
+``` http://localhost:3000 ```
+
+## Kasutaja rollid
+- **Tavaline kasutaja:** saab registreeruda, sisse logida ja jätta kommentaare
+
+- **Administraator:** saab lisaks hallata raamatuid (lisada, muuta, kustutada)
+
+## Projekti struktuur (olulisemad kaustad)
+```
+frontend/
+├── src/
+│   ├── components/      # UI komponendid
+│   ├── pages/           # Erinevad lehed (raamatud, detailid, login jne)
+│   ├── services/        # API-ga suhtlus
+│   ├── context/         # Autentimise kontekst
+│   └── App.jsx          # Peamine komponent
+├── public/
+├── index.html
+└── vite.config.js
+```
+
+## **Backend**
 
 ## Funktsionaalsus
 - Kasutajate registreerimine ja sisselogimine erinevate rollidega (administraator, kasutaja).
@@ -96,6 +151,8 @@ Swaggeri täielik dokumentatsioon on saadaval aadressil: **http://localhost:3000
 Näidis: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...`
 3. Vajuta **Authorize**, selleks et aktiveerida tokeni
 4. Pärast autoriseerimist saab teha turvalised päringud.
+
+
 
 ## Autor
 Projekt tehtud Jekaterina Šaškina poolt õppeaine “Web Programming” raames.
